@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {height: 100%}
+
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+
+.inner-container {
+    position: relative;
+}
+
+
+.inner-container_inline {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+
+
+.inner-container_block {
+    height: 50%;
+    width: 100%;
+    display: block;
+}

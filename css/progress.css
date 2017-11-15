@@ -1,0 +1,35 @@
+.b-progress {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+}
+
+
+
+.b-progress__loader {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 15px solid silver;
+    border-radius: 50%;
+    box-sizing: border-box;
+    visibility: visible;
+}
+
+.b-progress__loader {
+animation: spin 2s linear infinite;
+animation-play-state: paused;
+}
+
+@keyframes spin {
+    to {transform: rotate(1turn); }
+}
+
+
+.b-progress__loader_status {
+    width: 15px;
+    height: 15px;
+    background-color: #ffe10c;
+    position: absolute;
+    visibility: hidden;
+}
